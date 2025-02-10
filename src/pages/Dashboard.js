@@ -1,11 +1,10 @@
 import React from "react";
-import CalendarComponent from "../components/CalendarComponent";
 
 const Dashboard = () => {
   return (
     <div>
       <h1>Notiq Dashboard</h1>
-      <CalendarComponent />
+      <p>If you can see this, the Dashboard is rendering correctly!</p>
     </div>
   );
 };
